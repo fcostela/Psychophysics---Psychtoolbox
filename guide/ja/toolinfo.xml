@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<Tools>
+       <Tool  Name="ツールバーエディタ" Path="/toolbox/matlab/guide/guitools/" Command="toolbareditor"   Icon="toolbareditor.png"   ToolbarEntry="true"  Singleton="false"/>
+</Tools>

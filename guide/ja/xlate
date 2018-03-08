@@ -1,0 +1,247 @@
+% Copyright 1998-2008 The MathWorks, Inc.
+% $Revision: 1.1.6.10 $ $Date: 2008/12/04 22:40:29 $
+
+<(guide)Print...
+>(guide)印刷...
+<(guide)from the command line. Similar to the Property Editor,    
+>(guide)エディタと同様にコールバック エディタの上部には現在選択され、
+<(guide)uicontrols and axes. Selecting an object on any one of 
+>(guide)Axes を表示します。あるツールからオブジェクトを選択すると、
+<(guide)Call GUIDE with no args, an existing FIG-file name, or a list of figure handles.
+>(guide)GUIDE は、引数なしか既存の FIG-ファイル名、または Figure のハンドルのリストを使って呼び出してください。
+
+<(gui_mainfcn)Could not find field %s in the gui_State struct in GUI M-file %s
+>(gui_mainfcn)gui_State 構造体のフィールド %s が GUI の M-ファイル %s 内で見つかりません。
+
+<(guidefunc)Activating will save changes to your figure and M-file.\nDo you wish to continue?
+>(guidefunc)アクティブにすると変更を Figure と M-ファイルに保存します。\n続けますか?
+<(guidefunc)yes
+>(guidefunc)する
+<(guidefunc)no
+>(guidefunc)しない
+<(guidefunc)Unhandled internal error in guidefunc.\n%s
+>(guidefunc)guidefunc の内部エラーが処理されていません。\n%s
+<(guidefunc)Unhandled internal error in guidemfile.\n%s
+>(guidefunc)guidemfile の内部エラーが処理されていません。\n%s
+<(guidefunc)unknown
+>(guidefunc)不明
+<(guidefunc)File %s\nis not in current directory or MATLAB path
+>(guidefunc)ファイル %s は\nカレントディレクトリ、または MATLAB パスにありません
+<(guidefunc)File %s\ncan not be correctly found in MATLAB path
+>(guidefunc)ファイル %s を\nMATLAB パス上で見つけることができません
+<(guidefunc)Another M File with the same name: %s\nexists in current directory: %s
+>(guidefunc)同じ名前の別の M-ファイル: %s が\nカレントディレクトリ %s に存在します。
+<(guidefunc)To continue activation, select one of the following:
+>(guidefunc)アクティブ化を続けるため、以下のいずれかを選択してください:
+<(guidefunc)Error while attempting to activate figure.\n%s
+>(guidefunc)Figure をアクティブにしようとした時、エラーが発生しました。\n%s
+<(guidefunc)already exists, Do you want to replace it or append to it?
+>(guidefunc)は既に存在します。置き換えるか、追加しますか?
+<(guidefunc)Files:
+>(guidefunc)ファイル:
+<(guidefunc)already exist, Do you want to replace them?
+>(guidefunc)は既に存在します。置き換えますか？
+<(guidefunc)is read only on disk
+>(guidefunc)は読み取り専用です
+<(guidefunc)are read only on disk
+>(guidefunc)は読み取り専用です
+<(guidefunc)Error writing file:
+>(guidefunc)ファイルの書き込みエラー:
+<(guidefunc)Error writing files:
+>(guidefunc)ファイルの書き込みエラー:
+<(guidefunc)Check if directory is read only.
+>(guidefunc)ディレクトリは読み取り専用か確認してください。
+<(guidefunc)Save figure as:
+>(guidefunc)Figure を別名で保存:
+<(guidefunc)Selected file: %s\nFile name must end with %s
+>(guidefunc)選択されたファイル:%s\nファイル名は %s の拡張子がなければなりません。
+<(guidefunc)Please choose a valid MATLAB function name.\n\nA valid function name is a character string of letters, digits and underscores, with length <= 31 and the first character a letter.
+>(guidefunc)適切な MATLAB 関数名を選択してください。\n\n有効な関数名は、文字列の長さが 31 以下で、最初の文字がアルファベットである文字、数字、または下線を含む文字列です。
+<(guidefunc)Do not show this dialog again.
+>(guidefunc)次回からこのダイアログを表示しない。
+<(guidefunc)Pick a file
+>(guidefunc)ファイルを選択してください
+<(guidefunc)Exporting will save changes to your figure and M-file.\nDo you wish to continue?
+>(guidefunc)エクスポート操作は、ユーザの Figure と M-ファイルの変更を保存します。\n続けますか?
+<(guidefunc)is already open in GUIDE. Cannot save to an open GUI.
+>(guidefunc)GUIDE で既に開いています。開いている GUI を保存できません。
+<(guidefunc)Export:
+>(guidefunc)エクスポート:
+<(guidefunc)File: %s\nis not a valid GUIDE file name. It must have at least one character.
+>(guidefunc)ファイル: %s\nは、有効な GUIDE のファイル名ではありません。少なくとも 1 つの文字でなければなりません。
+<(guidefunc)is duplicating.
+>(guidefunc)複製中です。
+<(guidefunc)Multiple components may point to the same callback functions.
+>(guidefunc)複数のコンポーネントが、同じコールバック関数を示している可能性があります。
+<(guidefunc)Error creating file - is disk full?
+>(guidefunc)ファイル作成中のエラー - ディスク容量が一杯?
+<(guidefunc)is assigned to more than one component in your GUI. 
+>(guidefunc)ユーザの GUI で複数のコンポーネントが割り当てられています。
+<(guidefunc)Their callbacks may point to the same functions in the GUI M-file.
+>(guidefunc)それらのコールバックは、GUI の M-ファイルの同じ関数を指定している可能性があります
+
+<(guidemfile)%s does not exist.
+>(guidemfile)%s が存在しません。
+<(guidemfile)%s does not exist or is not writable.
+>(guidemfile)%s は存在しない、または書き込みできません。
+<(guidemfile)In file %s, there are multiple copies of system string: \n\n%s\n\nYour program may not run properly. Please remove extra copies.
+>(guidemfile)ファイル %s に、複数のシステム文字列のコピーがあります: \n\n%s\n\nプログラムは適切に実行されない可能性があります。余分なコピーを削除してください。
+<(guidemfile)Tag must be a legal variable name for GUIDE to append a callback function prototype to the application M-file. The %s for the %s with Tag: '%s' can not be appended until a legal tag is chosen
+>(guidemfile)タグは、アプリケーションの M-ファイルにコールバック関数のプロトタイプを追加するために、GUIDE の有効な変数名でなければなりません。%s (Tag を持つ %s): 有効なタグが選択されるまで '%s' を追加できません。
+<(guidemfile)Last Modified by GUIDE v
+>(guidemfile)GUIDE v による最終更新日
+<(guidemfile)% Use system color scheme for figure:
+>(guidemfile)% Figure にシステムのカラースキームを使用:
+<(guidemfile)% Wait for callbacks to run and window to be dismissed:
+>(guidemfile)% コールバックを実行してウィンドウが閉じるまでお待ちください:
+
+<(guideopts)second input argument must be an options structure or 'edit'
+>(guideopts)2 番目の入力引数はオプション構造体か 'edit' でなければなりません
+<(guideopts)too many input arguments
+>(guideopts)入力引数が多すぎます
+<(guideopts)Unrecognized input to GUIDEOPTS
+>(guideopts)GUIDEOPTS に認識されない入力
+<(guideopts)unknown resize policy: %s
+>(guideopts)不明なリサイズ方法: %s
+<(guideopts)GUIDE Application Options
+>(guideopts)GUIDE アプリケーション/オプション
+<(guideopts)Help
+>(guideopts)ヘルプ
+<(guideopts)Use system color scheme for background (recommended for GUIs)
+>(guideopts)バックグラウンドにシステムカラースキームを利用 (GUI の場合推奨)
+<(guideopts)Resize behavior:
+>(guideopts)リサイズアクション:
+<(guideopts)Command-line accessibility:
+>(guideopts)コマンドラインへのアクセス:
+<(guideopts)Generate FIG-file and M-file
+>(guideopts)FIG-ファイルと M-ファイルの作成
+<(guideopts)Generate FIG-file only
+>(guideopts)FIG-ファイルのみ作成
+<(guideopts)Generate callback function prototypes
+>(guideopts)コールバック関数のプロトタイプを作成
+<(guideopts)GUI allows only one instance to run (singleton)
+>(guideopts)GUI は 1 つのインスタンスのみの実行を許可 (シングルトン)
+<(guideopts)Use system color scheme for background (recommended)
+>(guideopts)バックグラウンドにシステムカラースキームを使用 (推奨)
+<(guideopts)Non-resizable
+>(guideopts)リサイズ不可
+<(guideopts)Proportional
+>(guideopts)比例 (プロポーショナル)
+<(guideopts)Other (Use ResizeFcn)
+>(guideopts)その他 (ResizeFcn を使用)
+<(guideopts)Callback (GUI becomes Current Figure within Callbacks)
+>(guideopts)コールバック (GUI はコールバック中に現在の Figure になります)
+<(guideopts)Off (GUI never becomes Current Figure)
+>(guideopts)オフ (GUI は現在の Figure になりません)
+<(guideopts)On (GUI may become Current Figure from Command Line)
+>(guideopts)オン (GUI はコマンドラインから現在の Figure として操作できます)
+<(guideopts)Other (Use settings from Property Inspector)
+>(guideopts)その他 (プロパティインスペクタからの設定を利用します)
+<(guideopts)GUI Options
+>(guideopts)GUI オプション
+
+<(actxproxy)This GUI contains Windows specific controls that are not supported on this platform.
+>(actxproxy)この GUI はこのプラットフォームでサポートされていない Windows 特有のコントロールを含んでいます。
+<(actxproxy)%s '%s' could not be restored to its previous state.\n\nMake sure file %s is in the same directory as your GUI.
+>(actxproxy)%s '%s' は 前の状態に戻すことができません。\n\nファイル %s が GUI と同じディレクトリにあることを確認してください。
+
+<[ctlpanel]()Apply
+>()適用
+<[ctlpanel]()Close
+>()閉じる
+<[ctlpanel]()File
+>()ファイル
+<[ctlpanel]()Help
+>()ヘルプ
+<[ctlpanel]()Options
+>()オプション
+<[ctlpanel](menuedit)Delete
+>(menuedit)削除
+<[ctlpanel](menuedit)Edit
+>(menuedit)編集
+<(ctlpanel)Wrong number of input arguments for CTLPANEL
+>(ctlpanel)CTLPABEL への入力引数の数が正しくありません
+<(ctlpanel)CTLPANEL function is obsolete. Use the GUIDE command instead.
+>(ctlpanel)関数 CTLPANEL は旧式です。代わりに GUIDE コマンドを使用してください。
+<(ctlpanel)Wrong number of input arguments for CTLPANEL.
+>(ctlpanel)CTLPANEL の入力引数の数が正しくありません。
+
+%%\work\R2006bd_Jul2\matlab\toolbox\matlab\guide\cbedit.m
+<(cbedit)CBEDIT function is obsolete.  Use the GUIDE command instead.
+>(cbedit)関数 CBEDIT は旧式です。代わりに GUIDE コマンドを使用してください。
+
+%%\work\R2006bd_Jul2\matlab\toolbox\matlab\guide\ctlpanel.m
+<(ctlpanel)CTLPANEL function is obsolete.  Use the GUIDE command instead.
+>(ctlpanel)関数 CTLPANEL は旧式です。代わりに GUIDE コマンドを使用してください。
+
+%%\work\R2006bd_Jul2\matlab\toolbox\matlab\guide\menuedit.m
+<(menuedit)MENUEDIT function is obsolete. Use the GUIDE command instead.
+>(menuedit)関数 MENUEDIT は旧式です。代わりに GUIDE コマンドを使用してください。
+
+%% toolbox\matlab\guide\guidefunc.m
+<(guidefunc)%s\nError in ==> 
+>(guidefunc)%s\nエラー ==> 
+<(guidefunc)%s\n\nPlease change the "Filename" property in the inspector to a valid value, or use the Save As option.
+>(guidefunc)%s\n\nインスペクタ内の "Filename" プロパティを有効な値に変更するか、別名で保存オプションを使用してください。
+<(guidefunc)Changing this callback property will modify the predefined behavior of this tool. \nYou can always go back to the predefined behavior by using the 'Restore Defaults' button \nDo you wish to continue?
+>(guidefunc)この callback プロパティを変更すると、このツールのあらかじめ定義された挙動は修正されます。\n'デフォルトに戻す' ボタンを使うことで、常にあらかじめ定義された挙動に戻すことができます。\n続けますか?
+<(guidefunc)File:
+>(guidefunc)ファイル:
+<(guidefunc)File: 
+>(guidefunc)ファイル: 
+<(guidefunc)File: %s\nFile name must end with %s
+>(guidefunc)ファイル: %s\nファイル名は %s で終わらなければなりません
+<(guidefunc)File: %s\nis not a valid GUIDE file name.\n\nThe file name should be a valid MATLAB function name. A valid \nfunction name is a character string of letters, digits and \nunderscores, with length <= %s and the first character a letter.
+>(guidefunc)ファイル: %s\nは、有効な GUIDE のファイル名ではありません。\n\nファイル名は、有効な MATLAB 関数名である必要があります。有効な\n関数名は、文字列の長さが %s 以下で、最初の文字がアルファベットである\n文字、数字、または下線を含む文字列です。
+<(guidefunc)To continue activation
+>(guidefunc)アクティブ化を続けるには
+
+%% toolbox\matlab\guide/guitemplates/guidetemplate1.m
+<(guidetemplate1)Input must be a number
+>(guidetemplate1)入力は数値でなければなりません
+
+%% toolbox\matlab\guide/guitools/iconeditor.m
+<(iconeditor)Could not load icon data from given file successfully. Make sure the file name is correct: \n%s
+>(iconeditor)与えられたファイルからアイコンデータを読み込めませんでした。ファイル名が正しいか確認してください: \n%s
+<(iconeditor)Invalid Icon File
+>(iconeditor)無効なアイコンファイル
+<(iconeditor)The given icon file cannot be found 
+>(iconeditor)与えられたアイコンファイルが見つかりません 
+
+%% toolbox\matlab\guide/guitools/toolbareditor.m
+<(toolbareditor)Deleting this toolbar will also delete all the tools it has. 
+>(toolbareditor)このツールバーを削除すると、ツールバーにあるすべてのツールも削除されます。
+<(toolbareditor)The selected toolbar tool was created from a predefined tool on the 
+>(toolbareditor)選択したツールバーツールは、パレット上の定義済ツールから
+<(toolbareditor)palette. Restoring its default behavior will remove all the changes you 
+>(toolbareditor)作成されました。デフォルトの挙動に戻すと、作成したすべての
+<(toolbareditor)may have made.
+>(toolbareditor)変更が削除されます。
+<(toolbareditor)Do you want to continue?
+>(toolbareditor)続けますか?
+
+%% matlab/guide/guidefunc.m
+<(guidefunc)%s at %i
+>(guidefunc)%s (%i 行目)
+
+%% matlab/guide/guidetemplate.m 
+<(guidetemplate)Open:
+>(guidetemplate)開く:
+<(guidetemplate)Save as:
+>(guidetemplate)別名で保存:
+
+%% matlab/guide/guidefunc.m
+<(guidefunc)%s\n\nPlease change the "Filename" property in the inspector to a\nvalid value, or use the Save As option.
+>(guidefunc)%s\n\nインスペクタ内の "Filename" プロパティを有効な値に変更するか、\n別名で保存オプションを使用してください。
+<(guidefunc)The current value of %s has been manually modified.\n\nDo you want to replace it with the GUIDE auto-generated callback? Click Yes to get the auto-generated callback. Click No to keep the %s value as it is.
+>(guidefunc)%s の現在の値は手動で修正されました。\n\nGUIDE で自動生成したコールバックで置き換えますか? 自動生成したコールバックを取得する場合は Yes (はい) をクリックしてください。%s の値をそのままにする場合は No (いいえ) をクリックしてください。
+
+%% matlab/guide/guidemfile.m
+<(guidemfile)Cannot find function %s in GUI M-file:\n%s\n\nTo correct this problem and make the %s work, please make sure the function name %s is correctly specified and the function exists in the GUI M-file.You may also ask GUIDE to auto-generate a callback for you.
+>(guidemfile)GUI の M-ファイル内に関数 %s が見つかりません:\n%s\n\nこの問題を修正して %s の作業を作成するには、関数名 %s が正しく指定されており、その関数が GUI の M-ファイル内に存在することを確認してください。GUIDE でコールバックを自動生成することも可能です。
+<(guidemfile)In file %s, there are multiple copies of system string: \n\n %s\n\nYour program may not run properly. Please remove extra copies.
+>(guidemfile)ファイル %s に、複数のシステム文字列のコピーがあります: \n\n %s\n\nプログラ?は適切に実行されない可能性があります。余分なコピーを削除してください。
+
+%% matlab/guide/private/requestJavaAdapter.m
+<(requestJavaAdapter)'requestJavaAdapter' argument must be a handle list.
+>(requestJavaAdapter)'requestJavaAdapter' の引数はハンドルリストでなければなりません。

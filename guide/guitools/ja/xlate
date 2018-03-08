@@ -1,0 +1,203 @@
+%toolbox/matlab/guide/guitools/ja/xlate
+
+<(toolbareditor)Toolbar Editor
+>(toolbareditor)ツールバーエディタ
+<(toolbareditor)Toolbar Layout
+>(toolbareditor)ツールバーレイアウト
+<(toolbareditor)Add tools here to create a toolbar. Drag and drop from the palette or press the Add button
+>(toolbareditor)ここでツールを追加してツールバーを作成します。パレットからドラッグアンドドロップするか追加ボタンを押してください
+<(toolbareditor)Push Tool
+>(toolbareditor)プッシュツール
+<(toolbareditor)Toggle Tool
+>(toolbareditor)トグルツール
+<(toolbareditor)Tool Properties
+>(toolbareditor)ツールプロパティ
+<(toolbareditor)Toolbar Properties
+>(toolbareditor)ツールバープロパティ
+<(toolbareditor)Deleting this toolbar will also delete all the tools it has. \n\nDo you want to continue?
+>(toolbareditor)このツールバーを削除すると、ツールバーにあるすべてのツールも削除されます。\n\n続けますか?
+<(toolbareditor)Tool Palette
+>(toolbareditor)ツールパレット
+<(toolbareditor)Custom Tools
+>(toolbareditor)カスタムツール
+<(toolbareditor)Predefined Tools
+>(toolbareditor)定義済ツール
+<(toolbareditor)xlatesafe_Help
+>(toolbareditor)ヘルプ
+<(toolbareditor)xlatesafe_Add
+>(toolbareditor)追加
+<(toolbareditor)Add selected palette item to toolbar
+>(toolbareditor)選択したパレット項目をツールバーに追加
+<(toolbareditor)xlatesafe_Delete
+>(toolbareditor)削除
+<(toolbareditor)Remove selected toolbar item
+>(toolbareditor)選択したツールバーの項目を削除
+<(toolbareditor)Send to First
+>(toolbareditor)先頭に送る
+<(toolbareditor)Move selected toolbar item to the beginning
+>(toolbareditor)選択したツールバーの項目を先頭に移動
+<(toolbareditor)Send to Last
+>(toolbareditor)最後に送る
+<(toolbareditor)Move selected toolbar item to the end
+>(toolbareditor)選択したツールバーの項目を最後に移動
+<(toolbareditor)Move to the Right
+>(toolbareditor)右に移動
+<(toolbareditor)Move selected toolbar item to the right
+>(toolbareditor)選択したツールバーの項目を右に移動
+<(toolbareditor)Move to the Left
+>(toolbareditor)左に移動
+<(toolbareditor)Move selected toolbar item to the left
+>(toolbareditor)選択したツールバーの項目を左に移動
+<(toolbareditor)Delete Toolbar
+>(toolbareditor)ツールバーを削除
+<(toolbareditor)Delete this toolbar and all its tools
+>(toolbareditor)このツールバーとそのすべてのツールを削除
+<(toolbareditor)Add Toolbar
+>(toolbareditor)ツールバーを追加
+<(toolbareditor)Add a new empty toolbar
+>(toolbareditor)新規に空のツールバーを追加
+<(toolbareditor)Shift Preview Tool Right
+>(toolbareditor)プレビューツールを右にシフト
+<(toolbareditor)Shift the preview tools starting from given position right
+>(toolbareditor)与えられた位置から始まるプレビューツールを右にシフト
+<(toolbareditor)Shift Preview Tool Left
+>(toolbareditor)プレビューツールを左にシフト
+<(toolbareditor)Shift the preview tools starting from given position left
+>(toolbareditor)与えられた位置から始まるプレビューツールを左にシフト
+<(toolbareditor)Edit Icon
+>(toolbareditor)アイコン編集
+<(toolbareditor)Change the icon of the selected toolbar item 
+>(toolbareditor)選択したツールバーの項目のアイコンを変更 
+<(toolbareditor)Edit Tooltip
+>(toolbareditor)ツールヒント編集
+<(toolbareditor)Change the tooltip of the selected toolbar item 
+>(toolbareditor)選択したツールバーの項目のツールヒントを変更 
+<(toolbareditor)Show Separator
+>(toolbareditor)区切り表示
+<(toolbareditor)Turn the separator on/off for the selected toolbar item 
+>(toolbareditor)選択したツールバーの項目に対して区切りを入れる/入れない 
+<(toolbareditor)Edit all properties in Inspector
+>(toolbareditor)インスペクタ内のすべてのプロパティを編集
+<(toolbareditor)More Property ...
+>(toolbareditor)その他のプロパティ ...
+<(toolbareditor)Restore Defaults
+>(toolbareditor)デフォルトに戻す
+<(toolbareditor)Go back to the default behavior of this predefined tool
+>(toolbareditor)この定義済ツールのデフォルトの挙動に戻す
+<(toolbareditor)CData (icon):
+>(toolbareditor)CData (アイコン):
+<(toolbareditor)Enable this tool
+>(toolbareditor)このツールを有効にする
+<(toolbareditor)Off Callback:
+>(toolbareditor)オフ時のコールバック:
+<(toolbareditor)On Callback:
+>(toolbareditor)オン時のコールバック:
+<(toolbareditor)Separator on left side
+>(toolbareditor)左側に区切りを入れる
+<(toolbareditor)xlatesafe_Tag:
+>(toolbareditor)タグ:
+<(toolbareditor)Tooltip String:
+>(toolbareditor)ツールヒントの文字列:
+<(toolbareditor)Clicked Callback
+>(toolbareditor)クリック時のコールバック
+<(toolbareditor)Make toolbar visible
+>(toolbareditor)ツールバーを表示
+<(toolbareditor)Edit ...
+>(toolbareditor)編集 ...
+<(toolbareditor)The selected toolbar tool was created from a predefined tool on the palette. Restoring its default behavior will remove all the changes you may have made.\n\nDo you want to continue?
+>(toolbareditor)選択したツールバーツールは、パレット上の定義済ツールから作成されました。デフォルトの挙動に戻すと、作成したすべての変更が削除されます。\n\n続けますか?
+<(toolbareditor)xlatesafe_New
+>(toolbareditor)新規
+<(toolbareditor)xlatesafe_Open
+>(toolbareditor)開く
+<(toolbareditor)xlatesafe_Save
+>(toolbareditor)保存
+<(toolbareditor)xlatesafe_Print
+>(toolbareditor)印刷
+<(toolbareditor)Edit Plot
+>(toolbareditor)プロットの編集
+<(toolbareditor)Zoom In
+>(toolbareditor)ズームイン
+<(toolbareditor)Zoom Out
+>(toolbareditor)ズームアウト
+<(toolbareditor)Zoom X-Axis
+>(toolbareditor)X-軸ズーム
+<(toolbareditor)Zoom X-Axis
+>(toolbareditor)X-軸ズーム
+<(toolbareditor)xlatesafe_Pan
+>(toolbareditor)移動
+<(toolbareditor)xlatesafe_Rotate
+>(toolbareditor)回転
+<(toolbareditor)Data Cursor
+>(toolbareditor)データカーソル
+<(toolbareditor)Brush Data
+>(toolbareditor)データのブラシ選択
+<(toolbareditor)Link Plot
+>(toolbareditor)リンクプロット
+<(toolbareditor)xlatesafe_Colorbar
+>(toolbareditor)カラーバー
+<(toolbareditor)xlatesafe_Legend
+>(toolbareditor)凡例
+<(toolbareditor)xlatesafe_Rectangle
+>(toolbareditor)長方形
+<(toolbareditor)xlatesafe_Ellipse
+>(toolbareditor)楕円
+<(toolbareditor)xlatesafe_Textbox
+>(toolbareditor)テキストボックス
+<(toolbareditor)Text Arrow
+>(toolbareditor)テキスト矢印
+<(toolbareditor)Double Arrow
+>(toolbareditor)双方向矢印
+<(toolbareditor)xlatesafe_Arrow
+>(toolbareditor)矢印
+<(toolbareditor)xlatesafe_Line
+>(toolbareditor)ライン
+<(toolbareditor)xlatesafe_Pin
+>(toolbareditor)固定
+<(toolbareditor)xlatesafe_Alignment
+>(toolbareditor)配置
+<(toolbareditor)Hide Plot Tools
+>(toolbareditor)プロットツールの非表示
+<(toolbareditor)Show Plot Tools
+>(toolbareditor)プロットツールの表示
+<(iconeditor)xlatesafe_Help
+>(iconeditor)ヘルプ
+<(iconeditor)xlatesafe_Cencel
+>(iconeditor)キャンセル
+<(iconeditor)Color Palette
+>(iconeditor)カラーパレット
+<(iconeditor)The given icon file cannot be found\n%s
+>(iconeditor)与えられたアイコンファイルが見つかりません\n%s
+<(iconeditor)Pick an icon image file
+>(iconeditor)アイコンイメージファイルを選択
+<(iconeditor)Could not load icon data from given file successfully. Make sure the file name is correct: \n%s
+>(iconeditor)与えられたファイルからアイコンデータを読み込めませんでした。ファイル名が正しいか確認してください: \n%s
+<(iconeditor)Icon Edit Pane (%s X %s)
+>(iconeditor)アイコン編集ペイン (%s X %s)
+<(iconeditor)Import ...
+>(iconeditor)インポート ...
+<(iconeditor)Import From Image File
+>(iconeditor)イメージファイルからインポート
+<(iconeditor)xlatesafe_Preview
+>(iconeditor)プレビュー
+<(iconeditor)Import icon file: 
+>(iconeditor)アイコンファイル: 
+<(iconeditor)Create a new icon below or type in an icon image file for editing
+>(iconeditor)下記ペインで新規のアイコンを作成するか編集するアイコンのイメージファイルを指定
+<(iconeditor)Invalid Icon File
+>(iconeditor)無効なアイコンファイル
+<(toolpalette)Erase color
+>(toolpalette)色を消す
+<(toolpalette)Fill with Color
+>(toolpalette)色で塗りつぶす
+<(toolpalette)Pick color
+>(toolpalette)色の選択
+<(toolpalette)xlatesafe_Pencil
+>(toolpalette)鉛筆
+<(colorpalette)More Colors ...
+>(colorpalette)その他の色 ...
+<()xlatesafe_View
+>()表示
+
+% Copyright 2007-2008 The MathWorks, Inc.                  
+% $Revision: 1.1.6.4 $ $Date: 2008/10/02 18:59:00 $

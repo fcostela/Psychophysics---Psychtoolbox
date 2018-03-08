@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<Templates>
+       <Group           Class="GUIDE テンプレート"         Default="1"                 Path="/toolbox/matlab/guide/guitemplates/">
+           <Template    Name="ブランク GUI (デフォルト)"      File="guidetemplate0"/>
+           <Template    Name="Uicontrols付きのGUI"      File="guidetemplate1"/>
+           <Template    Name="座標軸とメニュー付きのGUI"   File="guidetemplate2"/>
+           <Template    Name="モーダルクエスチョンダイアログ"    File="guidetemplate3"/>
+       </Group>
+
+       <GroupExample    Class="Example templates"       Default="0"                 Path="/toolbox/matlab/guide/guitemplates/">
+           <Template    Name="Example 1"                File="guidetemplate0"/>
+           <Template    Name="Example 2"                File="guidetemplate1"/>
+           <Template    Name="Example 3"                File="guidetemplate2"/>
+           <Template    Name="Example 4"                File="guidetemplate3"/>
+       </GroupExample>
+</Templates>
